@@ -3,16 +3,95 @@
     "username": "9333333333",
     "password": "Ukd@12345",
     "browser": "chrome",
-    "name":"raju krishna",
-    "mandal":"Beluguppa",
-    "studentname":"chetan",
-    "fathername":"shiva",
-    "villagename":"bapatla",
-    "mandalname":"bapatla",
-    "classname":"VII",
-    "admissionnumber":"4789",
-    "schoolname":"Narayana college",
-    "schooladdress":"bapatla village, uravakonda"    
+    
+    "template_details": {
+        "name": "raju krishna",
+        "constutuency":"Uravakonda",
+        "mandal": "Beluguppa",
+        "student_name": "chetan",
+        "father_name": "shiva",
+        "village_name": "bapatla",
+        "mandal_name": "bapatla",
+        "class_name": "VII",
+        "admission_number": "4789",
+        "school_name": "Narayana College",
+        "school_address": "bapatla village, uravakonda"
+    },
+    
+    "draft_grievance": {
+        "grievance_desc": "Drinking water supply in villages",
+        "draft_requestor_mobile": "8901966840",
+        "draft_requestor_name": "Surender"
+    },
+    "requestor_details": {
+        "first_name": "naga",
+        "last_name": "raj",
+        "age": "31",
+        "occupation": "doctor",
+        "mobile": "7689367856",
+        "constituency": "bapatla",
+        "mandal": "bapatla",
+        "village": "bapatla",
+        "tag": "self"
+    },
+    "association_details": {
+      "association_name":"Youth association",
+      "mobile_number":"9878657865",
+      "alternate_mobile":"7865789876",
+      "registration_number":"Reg#564",
+      "additional_info":"Related to youth people",
+      "address":"uravakonda village",
+      "member_name":"krishna",
+      "member_mobile_number":"6789389849",
+      "tag":"NGO"
+
+    },
+    
+    "contact_details": {
+        "contact_name": "Venkatesh",
+        "contact_phone": "9500000068",
+        "contact_tag": "Friend",
+        "contact_new_phone": "8901678392",
+        "contact_search": "Venkatesh"
+    },
+    "appointment_details":{
+        "event_title":"Farmers Meeting",
+        "event_details":"Uravakonda farmers meeting about crop development",
+        "appointment_subject":"Meeting with MLA",
+        "appointment_details":"Discussion on MLA-related issues",
+        "attendee_name":"Ragavendra",
+        "attendee_mobile_number":"9890033788"
+    },
+    "development_activity":{
+        "description ":"School building development in uravakonda",
+        "Project_value":"34",
+        "district ":"Bapatla",
+        "mandal":"Bapatla",
+        "village":"Bapatla",
+        "address_line_1":"voters colony",
+        "Address_line_2":"main road bapatla village",
+        "company_name":"OSSI",
+        "point_of_conatct_name":"sagar",
+        "point_of_conatct_number":"8796677988",
+        "phase_desc":"Collect list of villages which doessnot have the school building",
+        "milestone_desc":"Prioritize contruction of school building based on school students requirement"
+    },
+    "task_management":{
+        "task_title":"Collect voter details in uravakonda",
+        "task_desc":"Make a report related to below middle class voters",
+        "due_date":"3"
+    },
+    "user_management": {
+        "user_name": "deepakd",
+        "user_mobile": "7683568923",
+        "user_email": "deepakw@gmail.com",
+        "user_password": "Test@12345"
+    }
+
+
+    
 }
 
+    
+    
 

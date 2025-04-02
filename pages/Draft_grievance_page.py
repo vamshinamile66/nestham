@@ -31,11 +31,11 @@ class GrievancePage:
         """Click on 'New Draft' option."""
         self.wait.until(EC.element_to_be_clickable(self.new_draft_option)).click()
 
-    def fill_grievance_details(self, grievance_text, mobile_number, contact_name):
+    def fill_grievance_details(self, grievancedesc, draft_requestor_mobile, draft_requestor_name):
         """Fill grievance details."""
-        self.wait.until(EC.presence_of_element_located(self.draft_textarea)).send_keys(grievance_text)
-        self.wait.until(EC.presence_of_element_located(self.draft_requestor_number)).send_keys(mobile_number)
-        self.wait.until(EC.presence_of_element_located(self.draft_requestor_name)).send_keys(contact_name)
+        self.wait.until(EC.presence_of_element_located(self.draft_textarea)).send_keys(grievancedesc)
+        self.wait.until(EC.presence_of_element_located(self.draft_requestor_number)).send_keys(draft_requestor_mobile)
+        self.wait.until(EC.presence_of_element_located(self.draft_requestor_name)).send_keys(draft_requestor_name)
 
     def click_create_draft(self):
         """Click on 'Create Draft' button."""
